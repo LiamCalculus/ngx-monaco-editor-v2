@@ -125,7 +125,6 @@ export class AppComponent implements OnInit {
     this.model = {
       value: this.jsonCode,
       language: 'typescript',
-      uri: monaco.Uri.parse('a://b/foo.json')
     };
     // let line = editor.getPosition();
     // let range = new monaco.Range(line.lineNumber, 1, line.lineNumber, 1);
